@@ -392,11 +392,11 @@ export function Dashboard() {
                   Motiron Technologies
                 </p>
                 <h1 className="mt-2 max-w-2xl text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-                  Controle da frota em uma visão operacional.
+                  Controle da frota.
                 </h1>
                 <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/65 sm:text-base">
                   Acompanhe disponibilidade, distribuição e registros recentes
-                  da frota em um painel mais direto e organizado.
+                  da frota.
                 </p>
               </div>
             </div>
@@ -416,7 +416,7 @@ export function Dashboard() {
                   Disponibilidade
                 </p>
                 <p className="mt-1 text-sm text-white/70">
-                  Veículos ativos no recorte atual
+                  Veículos ativos 
                 </p>
               </div>
               <ShieldCheck className="text-primary size-5" aria-hidden="true" />
@@ -466,7 +466,7 @@ export function Dashboard() {
         <CardHeader className="px-4 pb-0 sm:px-5">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <CardTitle className="text-base">Recorte da operação</CardTitle>
+              <CardTitle className="text-base">Operação</CardTitle>
               <CardDescription>
                 Todos os indicadores da frota abaixo acompanham estes filtros.
               </CardDescription>
