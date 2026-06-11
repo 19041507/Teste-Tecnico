@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noEmit": false,
+    "incremental": false,
+    "isolatedModules": false,
+    "outDir": ".vehicle-test-build",
+    "rootDir": "src",
+    "types": ["node"]
+  },
+  "include": [
+    "src/modules/vehicles/__tests__/**/*.ts",
+    "src/modules/vehicles/services/vehicleService.ts",
+    "src/modules/vehicles/data/mock-vehicle-seed.ts",
+    "src/modules/vehicles/mocks/vehicle.mocks.ts",
+    "src/modules/vehicles/types/**/*.ts",
+    "src/modules/vehicles/enums/**/*.ts",
+    "src/modules/companies/services/companyService.ts",
+    "src/modules/companies/data/mock-companies.ts",
+    "src/modules/companies/types/**/*.ts",
+    "src/shared/mocks/mock-store.ts"
+  ],
+  "exclude": ["node_modules", ".vehicle-test-build"]
+}
